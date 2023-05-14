@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://schema.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://example.com/Comment4">
+    <rdf:type rdf:resource="http://schema.org/Comment"/>
+    <ns1:author>Ahmed</ns1:author>
+    <ns1:text>J'aime bien le produit, mais il pourrait etre ameliore.</ns1:text>
+    <ns1:rating>2</ns1:rating>
+    <ns1:datePublished>2023-05-16</ns1:datePublished>
+    <ns1:about rdf:resource="http://example.com/Product1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Comment1">
+    <rdf:type rdf:resource="http://schema.org/Comment"/>
+    <ns1:author>Abderrahim</ns1:author>
+    <ns1:text>C'est un excellent produit !</ns1:text>
+    <ns1:rating>5</ns1:rating>
+    <ns1:datePublished>2023-05-14</ns1:datePublished>
+    <ns1:about rdf:resource="http://example.com/Product1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Comment2">
+    <rdf:type rdf:resource="http://schema.org/Comment"/>
+    <ns1:author>Abdelkarim</ns1:author>
+    <ns1:text>Je ne suis pas satisfait du service.</ns1:text>
+    <ns1:rating>1</ns1:rating>
+    <ns1:datePublished>2023-05-15</ns1:datePublished>
+    <ns1:about rdf:resource="http://example.com/Product1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Comment3">
+    <rdf:type rdf:resource="http://schema.org/Comment"/>
+    <ns1:author>Zakaria</ns1:author>
+    <ns1:text>Tres bon rapport qualite-prix.</ns1:text>
+    <ns1:rating>5</ns1:rating>
+    <ns1:datePublished>2023-05-13</ns1:datePublished>
+    <ns1:about rdf:resource="http://example.com/Product1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/Product1">
+    <rdf:type rdf:resource="http://schema.org/Product"/>
+    <ns1:name>Product A</ns1:name>
+  </rdf:Description>
+</rdf:RDF>
